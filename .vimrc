@@ -62,10 +62,8 @@ nnoremap D "+dd
 vnoremap P "+p
 nnoremap P "+p
 
-" half page down
-nnoremap <C-j> <C-d>
-" half page up
-nnoremap <C-k> <C-u>
+nnoremap <C-j> <C-f>
+nnoremap <C-k> <C-b>
 
 noremap <LEADER><CR> :nohlsearch<CR>
 
