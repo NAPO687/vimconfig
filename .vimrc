@@ -55,7 +55,7 @@ vnoremap Y "+y
 nnoremap Y V"+y
 
 " cut setting
-vnoremap D "+dd
+vnoremap D "+d
 nnoremap D "+dd
 
 " paste setting
