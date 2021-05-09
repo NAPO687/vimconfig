@@ -50,12 +50,21 @@ set wrap
 inoremap jj <ESC>
 inoremap <ESC> <NOP>
 
-vnoremap <LEADER>y "+y
-vnoremap <LEADER>p "+p
-nnoremap <LEADER>p "+p
+" copy setting 
+vnoremap Y "+y
+nnoremap Y V"+y
 
-nnoremap <LEADER>j <C-f>
-nnoremap <LEADER>k <C-b>
+" cut setting
+vnoremap <C-x> "+d
+
+" paste setting
+vnoremap P "+p
+nnoremap P "+p
+
+" half page down
+nnoremap <C-j> <C-d>
+" half page up
+nnoremap <C-k> <C-u>
 
 noremap <LEADER><CR> :nohlsearch<CR>
 
@@ -64,4 +73,5 @@ noremap Q :q<CR>
 
 " initials case
 nnoremap <LEADER>c eb~
+
 
