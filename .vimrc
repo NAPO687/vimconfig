@@ -75,4 +75,7 @@ noremap Q :q<CR>
 " initials case
 nnoremap <LEADER>c eb~
 
+nnoremap < <<
+nnoremap > >>
+
 
