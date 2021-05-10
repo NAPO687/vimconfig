@@ -32,6 +32,8 @@ set shiftwidth=4
 " show cursor position
 set ruler
 
+set scrolloff=4
+
 " search result show with highlight
 set hlsearch
 set incsearch
@@ -75,5 +77,4 @@ nnoremap <LEADER>c eb~
 
 nnoremap < <<
 nnoremap > >>
-
 
