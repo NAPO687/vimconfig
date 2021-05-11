@@ -4,11 +4,18 @@
 " incompatible with vi
 set nocompatible
 
+" 同时开启相对行号和绝对行号将会在当前行显示绝对行号
 " show absolute number
-" set number
-
-" set relative number
+set number
+" show relative number
 set relativenumber
+
+" 进入insert mode时开启关闭相对行号，退出insert mode是开启相对行号
+augroup show_number
+    autocmd!
+    autocmd InsertEnter * :set norelativenumber
+    autocmd InsertLeave * :set relativenumber
+augroup END
 
 " set encoding
 set encoding=utf-8
@@ -26,8 +33,8 @@ set autoindent
 set expandtab
 " insert 4 spaces for a tab
 set tabstop=4
-" back indent length when insert mode
-set softtabstop=4
+" mix tab and space
+set softtabstop=0
 " >> & << is 4 spaces
 set shiftwidth=4
 
