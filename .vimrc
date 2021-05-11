@@ -32,7 +32,7 @@ set shiftwidth=4
 " show cursor position
 set ruler
 
-set scrolloff=4
+set scrolloff=3
 
 " search result show with highlight
 set hlsearch
