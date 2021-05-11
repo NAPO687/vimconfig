@@ -1,6 +1,6 @@
-" set <leader> as <space>
-let mapleader=" "
-
+" =================================
+" ======== basic settings =========
+" =================================
 " incompatible with vi
 set nocompatible
 " show absolute number
@@ -47,6 +47,14 @@ set noerrorbells
 set history=1000
 
 set wrap
+
+" ==========================
+" ======== mapping =========
+" ==========================
+
+" set <leader> as <space>
+let mapleader=" "
+nnoremap <SPACE> <NOP>
 
 " escape map to jj
 inoremap jj <ESC>
