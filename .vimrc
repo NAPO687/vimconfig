@@ -8,7 +8,7 @@ set nocompatible
 " show absolute number
 set number
 " show relative number
-" set relativenumber
+set relativenumber
 
 " 进入insert mode时开启关闭相对行号，退出insert mode是开启相对行号
 " augroup show_number
