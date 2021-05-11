@@ -8,14 +8,14 @@ set nocompatible
 " show absolute number
 set number
 " show relative number
-set relativenumber
+" set relativenumber
 
 " 进入insert mode时开启关闭相对行号，退出insert mode是开启相对行号
-augroup show_number
-    autocmd!
-    autocmd InsertEnter * :set norelativenumber
-    autocmd InsertLeave * :set relativenumber
-augroup END
+" augroup show_number
+"     autocmd!
+"     autocmd InsertEnter * :set norelativenumber
+"     autocmd InsertLeave * :set relativenumber
+" augroup END
 
 " set encoding
 set encoding=utf-8
@@ -43,6 +43,7 @@ set shiftwidth=4
 
 " show cursor position
 set ruler
+set wildmenu
 
 set scrolloff=3
 
@@ -57,8 +58,6 @@ set smartcase
 set autochdir
 set noerrorbells
 set history=1000
-
-set wrap
 
 " ==========================
 " ======== mapping =========
@@ -100,5 +99,7 @@ nnoremap <LEADER>c eb~
 
 nnoremap < <<
 nnoremap > >>
+
+nnoremap <LEADER>rn :set relativenumber!<CR>
 
 
