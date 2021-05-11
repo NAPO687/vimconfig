@@ -72,6 +72,9 @@ nnoremap D "+dd
 vnoremap P "+p
 nnoremap P "+p
 
+" Redo
+nnoremap U <C-r>
+
 nnoremap <C-j> <C-f>
 nnoremap <C-k> <C-b>
 
@@ -85,4 +88,5 @@ nnoremap <LEADER>c eb~
 
 nnoremap < <<
 nnoremap > >>
+
 
