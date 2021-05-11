@@ -3,8 +3,13 @@
 " =================================
 " incompatible with vi
 set nocompatible
+
 " show absolute number
-set number
+" set number
+
+" set relative number
+set relativenumber
+
 " set encoding
 set encoding=utf-8
 
