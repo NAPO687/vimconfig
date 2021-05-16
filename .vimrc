@@ -94,12 +94,16 @@ noremap <LEADER><CR> :nohlsearch<CR>
 " quick exit
 noremap Q :q<CR>
 
-" initials case
-nnoremap <LEADER>c eb~
-
 nnoremap < <<
 nnoremap > >>
 
 nnoremap <LEADER>rn :set relativenumber!<CR>
+
+" 转换单词的首字母大小写
+nnoremap <LEADER>c viw<ESC>b~
+
+" 为当前单词前后添加 ' 或 "
+nnoremap <LEADER>' viw<ESC>a'<ESC>bi'<ESC>
+nnoremap <LEADER>" viw<ESC>a"<ESC>bi"<ESC>
 
 
