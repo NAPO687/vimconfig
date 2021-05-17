@@ -97,13 +97,17 @@ noremap Q :q<CR>
 nnoremap < <<
 nnoremap > >>
 
+" 开关绝对行号
 nnoremap <LEADER>rn :set relativenumber!<CR>
 
-" 转换单词的首字母大小写
-nnoremap <LEADER>c viw<ESC>b~
+" 转换当前单词的首字母大小写
+nnoremap <LEADER>ci viw<ESC>b~
+" 转换当前单词为小写
+nnoremap <LEADER>cu viwu
+" 转换当前单词为大写
+nnoremap <LEADER>cU viwU
 
 " 为当前单词前后添加 ' 或 "
 nnoremap <LEADER>' viw<ESC>a'<ESC>bi'<ESC>
 nnoremap <LEADER>" viw<ESC>a"<ESC>bi"<ESC>
-
 
