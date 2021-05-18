@@ -1,0 +1,105 @@
+// vscode vim插件 相关配置
+{
+    "vim.ignorecase": true,
+    "vim.smartcase": true,
+    "vim.autoindent": true,
+    "vim.hlsearch": true,
+    "vim.incsearch": true,
+    "vim.history": 200,
+    "vim.leader": "<space>",
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["j", "j"],
+            "after": ["<esc>"]
+        },
+        {
+            "before": ["<esc>"],
+            "after": ["<nop>"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": ["Y"],
+            "after": ["\"", "+", "y"]
+        },
+        {
+            "before": ["D"],
+            "after": ["\"", "+", "d"]
+        },
+        {
+            "before": ["P"],
+            "after": ["\"", "+", "p"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<space>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["Y"],
+            "after": ["V", "\"", "+", "y"]
+        },
+        {
+            "before": ["D"],
+            "after": ["\"", "+", "d", "d"]
+        },
+        {
+            "before": ["P"],
+            "after": ["\"", "+", "p"]
+        },
+        {
+            "before": ["U"],
+            "after": ["<c-r>"]
+        },
+        {
+            "before": ["<c-j>"],
+            "after": ["<c-f>"]
+        },
+        {
+            "before": ["<c-k>"],
+            "after": ["<c-b>"]
+        },
+        {
+            "before": ["<leader>", "<cr>"],
+            "commands": [":nohlsearch"]
+        },
+        {
+            "before": ["Q"],
+            "commands": [":q"]
+        },
+        {
+            "before": ["<"],
+            "after": ["<", "<"]
+        },
+        {
+            "before": [">"],
+            "after": [">", ">"]
+        },
+        {
+            "before": ["<leader>", "r", "n"],
+            "commands": [":set relativenumber!"]
+        },
+        {
+            "before": ["<leader>", "c", "i"],
+            "after": ["v", "i", "w", "<esc>", "b", "~"]
+        },
+        {
+            "before": ["<leader>", "c", "u"],
+            "after": ["v", "i", "w", "u"]
+        },
+        {
+            "before": ["<leader>", "c", "U"],
+            "after": ["v", "i", "w", "U"]
+        }, 
+        {
+            "before": ["<leader>", "'"],
+            "after": ["v", "i", "w", "<esc>", "a", "'", "<esc>", "b", "i", "'", "<esc>"]
+        },
+        {
+            "before": ["<leader>", "\""],
+            "after": ["v", "i", "w", "<esc>", "a", "\"", "<esc>", "b", "i", "\"", "<esc>"]
+        }
+    ],
+    "editor.lineNumbers": "relative"
+}
