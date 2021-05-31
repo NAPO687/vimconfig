@@ -113,7 +113,7 @@ nnoremap <LEADER>" viw<ESC>a"<ESC>bi"<ESC>
 
 augroup formatgroup
     autocmd!
-    autocmd BufWrite, BufWritePre  *.html, *.c, *.java :normal gg=G
+    autocmd BufWrite,BufWritePre *.html,*.c,*.java :normal gg=G
 augroup END
 
 
