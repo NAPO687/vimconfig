@@ -111,3 +111,9 @@ nnoremap <LEADER>cU viwU
 nnoremap <LEADER>' viw<ESC>a'<ESC>bi'<ESC>
 nnoremap <LEADER>" viw<ESC>a"<ESC>bi"<ESC>
 
+augroup formatgroup
+    autocmd!
+    autocmd BufWrite, BufWritePre  *.html, *.c, *.java :normal gg=G
+augroup END
+
+
