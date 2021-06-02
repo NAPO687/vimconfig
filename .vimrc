@@ -111,6 +111,12 @@ nnoremap <LEADER>cU viwU
 nnoremap <LEADER>' viw<ESC>a'<ESC>bi'<ESC>
 nnoremap <LEADER>" viw<ESC>a"<ESC>bi"<ESC>
 
+" 禁用方向键
+noremap <UP> <NOP>
+noremap <DOWN> <NOP>
+noremap <LEFT> <NOP>
+noremap <RIGHT> <NOP>
+
 " augroup formatgroup
     " autocmd!
     " autocmd BufWrite,BufWritePre *.html,*.c,*.java :normal gg=G

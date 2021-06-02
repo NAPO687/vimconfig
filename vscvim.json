@@ -1,4 +1,3 @@
-// vscode vim插件 相关配置
 {
     "vim.ignorecase": true,
     "vim.smartcase": true,
@@ -19,6 +18,22 @@
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
+            "before": ["<up>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<down>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<left>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<right>"],
+            "after": ["<nop>"]
+        },
+        {
             "before": ["Y"],
             "after": ["\"", "+", "y"]
         },
@@ -32,6 +47,22 @@
         }
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<up>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<down>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<left>"],
+            "after": ["<nop>"]
+        },
+        {
+            "before": ["<right>"],
+            "after": ["<nop>"]
+        },
         {
             "before": ["<space>"],
             "after": ["<nop>"]
