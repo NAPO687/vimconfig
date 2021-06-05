@@ -86,8 +86,11 @@ nnoremap P "+p
 " Redo
 nnoremap U <C-r>
 
+" 增加翻页快捷键
 nnoremap <C-j> <C-f>
 nnoremap <C-k> <C-b>
+vnoremap <C-j> <C-f>
+vnoremap <C-k> <C-b>
 
 noremap <LEADER><CR> :nohlsearch<CR>
 
